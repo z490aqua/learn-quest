@@ -8,7 +8,9 @@ enum ITEM {
 	BATTLE_DEFENSE,
 	
 	PERM_ATTACK,
-	PERM_DEFENSE
+	PERM_DEFENSE,
+	
+	WOOD
 }
 
 global.items[ITEM.BANDAGE] = new HealingItem("Bandage", sBandage, 20);
@@ -21,3 +23,5 @@ global.items[ITEM.BATTLE_DEFENSE] = new DefenseIncrease("Battle Defense+", sBatt
 
 global.items[ITEM.PERM_ATTACK] = new AttackIncrease("Perm Attack+", sPermAttack, 10, false);
 global.items[ITEM.PERM_DEFENSE] = new DefenseIncrease("Perm Defense+", sPermDefense, 10, false);
+
+global.items[ITEM.WOOD] = new Material("Wood", sPotion);
