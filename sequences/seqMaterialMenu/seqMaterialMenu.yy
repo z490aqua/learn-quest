@@ -27,7 +27,7 @@
   "name":"seqMaterialMenu",
   "parent":{
     "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "path":"folders/Game/SequenceGUI/Sequences.yy",
   },
   "playback":0,
   "playbackSpeed":35.0,

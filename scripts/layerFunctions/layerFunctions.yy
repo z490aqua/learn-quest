@@ -6,7 +6,7 @@
   "name":"layerFunctions",
   "parent":{
     "name":"Functions",
-    "path":"folders/Scripts/Functions.yy",
+    "path":"folders/Game/Scripts/Functions.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

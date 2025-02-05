@@ -37,7 +37,7 @@
   "origin":4,
   "parent":{
     "name":"Idle",
-    "path":"folders/Sprites/Enemies/MaskedGoon/Idle.yy",
+    "path":"folders/Game/Game Objects/Entities/Enemies/Enemy Sprites/MaskedGoon Sprites/Idle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

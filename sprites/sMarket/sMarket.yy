@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Environment",
-    "path":"folders/Sprites/Environment.yy",
+    "name":"Environment Sprites",
+    "path":"folders/Game/Environment/Environment Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

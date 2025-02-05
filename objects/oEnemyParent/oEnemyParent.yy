@@ -14,7 +14,7 @@
   ],
   "parent":{
     "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "path":"folders/Game/Game Objects/Entities/Enemies.yy",
   },
   "parentObjectId":{
     "name":"oAIParent",

@@ -26,8 +26,8 @@
   },
   "name":"seqTextbox",
   "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "name":"Interactions",
+    "path":"folders/Game/SequenceGUI/Interactions.yy",
   },
   "playback":1,
   "playbackSpeed":20.0,

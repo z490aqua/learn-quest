@@ -6,7 +6,7 @@
   "name":"itemMaterialData",
   "parent":{
     "name":"Data",
-    "path":"folders/Scripts/Data.yy",
+    "path":"folders/Game/Scripts/Data.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

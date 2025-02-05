@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Boxes",
-    "path":"folders/Objects/SequenceGUI/Boxes.yy",
+    "path":"folders/Game/SequenceGUI/Boxes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

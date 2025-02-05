@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Actions",
-    "path":"folders/Sprites/Actions.yy",
+    "name":"Action Sprites",
+    "path":"folders/Game/SequenceGUI/Battle/Sequences/Actions/Action Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

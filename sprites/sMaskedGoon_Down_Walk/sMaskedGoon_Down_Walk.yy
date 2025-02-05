@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Walk",
-    "path":"folders/Sprites/Enemies/MaskedGoon/Walk.yy",
+    "path":"folders/Game/Game Objects/Entities/Enemies/Enemy Sprites/MaskedGoon Sprites/Walk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

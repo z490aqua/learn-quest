@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Triggers",
-    "path":"folders/Objects/Triggers.yy",
+    "path":"folders/Game/Managers/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

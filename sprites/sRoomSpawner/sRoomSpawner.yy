@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Triggers",
-    "path":"folders/Sprites/Triggers.yy",
+    "name":"Trigger Sprites",
+    "path":"folders/Game/Managers/Triggers/Trigger Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

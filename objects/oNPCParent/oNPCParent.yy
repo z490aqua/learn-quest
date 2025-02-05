@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
-    "path":"folders/Objects/NPCs.yy",
+    "path":"folders/Game/Game Objects/Entities/NPCs.yy",
   },
   "parentObjectId":{
     "name":"oAIParent",

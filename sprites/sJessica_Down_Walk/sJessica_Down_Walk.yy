@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Walk",
-    "path":"folders/Sprites/Jessica/Walk.yy",
+    "path":"folders/Game/Game Objects/Entities/NPCs/NPC Sprites/Jessica/Walk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

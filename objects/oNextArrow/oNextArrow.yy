@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"SequenceGUI",
-    "path":"folders/Objects/SequenceGUI.yy",
+    "path":"folders/Game/SequenceGUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
