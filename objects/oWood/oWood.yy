@@ -12,8 +12,8 @@
     "path":"folders/Objects/Environment/Items.yy",
   },
   "parentObjectId":{
-    "name":"oItemParent",
-    "path":"objects/oItemParent/oItemParent.yy",
+    "name":"oItemMaterialParent",
+    "path":"objects/oItemMaterialParent/oItemMaterialParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

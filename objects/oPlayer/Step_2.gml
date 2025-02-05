@@ -49,7 +49,18 @@ if (instance_exists(_nearestEnemy) && _nearestEnemy.hp > 0) {
 
 #region Item Interaction
 var _itemInst = instance_place(x, y, oItemParent);
+if (instance_exists(_itemInst)) {
+	_itemInst.player = self;
+	with (_itemInst) { event_user(2) }
 
+}
+
+// TODO Make item pickup code polymorphic
+
+
+
+
+/*
 if (instance_exists(_itemInst)) {
 	var _added = inventory_add(inventory, _itemInst.itemID);
 	
@@ -63,4 +74,5 @@ if (instance_exists(_itemInst)) {
 		instance_destroy(_itemInst);
 	}
 }
+*/
 #endregion

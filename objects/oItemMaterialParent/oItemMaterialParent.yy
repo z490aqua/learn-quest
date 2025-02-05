@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayerMaterialsBox",
+  "%Name":"oItemMaterialParent",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayerMaterialsBox",
+  "name":"oItemMaterialParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player Info Boxes",
-    "path":"folders/Objects/SequenceGUI/Boxes/Player Info Boxes.yy",
+    "name":"Items",
+    "path":"folders/Objects/Environment/Items.yy",
   },
   "parentObjectId":{
-    "name":"oInfoBoxParent",
-    "path":"objects/oInfoBoxParent/oInfoBoxParent.yy",
+    "name":"oItemParent",
+    "path":"objects/oItemParent/oItemParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sTextboxLayout",
-    "path":"sprites/sTextboxLayout/sTextboxLayout.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
