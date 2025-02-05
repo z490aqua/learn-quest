@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "inventoryFunctions",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Functions.yy",
+  "$GMScript":"v1",
+  "%Name":"inventoryFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"inventoryFunctions",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Scripts/Functions.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

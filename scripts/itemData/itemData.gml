@@ -9,6 +9,7 @@ enum ITEM {
 	
 	PERM_ATTACK,
 	PERM_DEFENSE
+	
 }
 
 global.items[ITEM.BANDAGE] = new HealingItem("Bandage", sBandage, 20);

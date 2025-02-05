@@ -40,3 +40,14 @@ function DefenseIncrease (_name, _icon, _increase, _forBattle) : Item (_name, _i
 		return true;
 	}
 }
+
+function Material (_name, _icon) constructor {
+	name = _name;
+	icon = _icon;
+	forBattleUse = false;
+
+
+	/// @func	Effect
+	/// @arg	player
+	Effect = function (player) {};
+}

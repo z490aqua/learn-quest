@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "mathFunctions",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Functions.yy",
+  "$GMScript":"v1",
+  "%Name":"mathFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mathFunctions",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Scripts/Functions.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
