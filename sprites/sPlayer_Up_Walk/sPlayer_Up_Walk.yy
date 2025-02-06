@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Walk",
-    "path":"folders/Sprites/Player Sprites/Walk.yy",
+    "path":"folders/Game/Game Objects/Entities/Player/Player Sprites/Walk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -9,8 +9,10 @@ if (player != -1)
 			// Show dialogue box
 			var _itemData = global.items[itemID];
 			show_alert("You got a " + _itemData.name + "!", _itemData.icon);
-		
 			// Destroy item
+			PlayPickupSound()
+			
+			
 			instance_destroy();
 		}
 }

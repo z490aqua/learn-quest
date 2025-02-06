@@ -33,7 +33,7 @@
   "name":"seqActionKick",
   "parent":{
     "name":"Actions",
-    "path":"folders/Sequences/Actions.yy",
+    "path":"folders/Game/SequenceGUI/Battle/Sequences/Actions.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,

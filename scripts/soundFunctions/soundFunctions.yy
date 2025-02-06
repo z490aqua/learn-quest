@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"soundFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"soundFunctions",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Game/Scripts/Functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

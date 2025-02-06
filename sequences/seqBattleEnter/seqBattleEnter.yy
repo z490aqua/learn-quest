@@ -33,7 +33,7 @@
   "name":"seqBattleEnter",
   "parent":{
     "name":"Transitions",
-    "path":"folders/Sequences/Transitions.yy",
+    "path":"folders/Game/SequenceGUI/Sequences/Transitions.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,

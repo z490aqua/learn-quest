@@ -12,8 +12,8 @@
   "name":"oAIParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Entities",
+    "path":"folders/Game/Game Objects/Entities.yy",
   },
   "parentObjectId":{
     "name":"oEntityParent",

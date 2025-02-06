@@ -2,7 +2,8 @@
 
 event_inherited();
 
-materialId = MATERIAL.WOOD;
+itemID = ITEM.WOOD;
+
 
 /*
 TO ADD AN ITEM:

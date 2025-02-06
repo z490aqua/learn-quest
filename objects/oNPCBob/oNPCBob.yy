@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},"propertyId":{"name":"messageData","path":"objects/oNPCParent/oNPCParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.messages.bob_0",},
   ],
   "parent":{
-    "name":"Items",
-    "path":"folders/Objects/Environment/Items.yy",
+    "name":"NPCs",
+    "path":"folders/Game/Game Objects/Entities/NPCs.yy",
   },
   "parentObjectId":{
     "name":"oNPCParent",

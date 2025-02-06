@@ -26,8 +26,8 @@
   },
   "name":"seqBattleScene",
   "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "name":"Transitions",
+    "path":"folders/Game/SequenceGUI/Battle/Sequences/Transitions.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,

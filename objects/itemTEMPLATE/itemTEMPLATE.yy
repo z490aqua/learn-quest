@@ -8,8 +8,8 @@
   "name":"itemTEMPLATE",
   "overriddenProperties":[],
   "parent":{
-    "name":"Items",
-    "path":"folders/Objects/Environment/Items.yy",
+    "name":"Inventory Items",
+    "path":"folders/Game/Game Objects/Items/Inventory Items.yy",
   },
   "parentObjectId":{
     "name":"oItemParent",

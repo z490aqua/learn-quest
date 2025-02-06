@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Player Info Boxes",
-    "path":"folders/Objects/SequenceGUI/Boxes/Player Info Boxes.yy",
+    "path":"folders/Game/SequenceGUI/Boxes/Player Info Boxes.yy",
   },
   "parentObjectId":{
     "name":"oInfoBoxParent",

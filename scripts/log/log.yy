@@ -6,7 +6,7 @@
   "name":"log",
   "parent":{
     "name":"Classes",
-    "path":"folders/Scripts/Classes.yy",
+    "path":"folders/Game/Scripts/Classes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

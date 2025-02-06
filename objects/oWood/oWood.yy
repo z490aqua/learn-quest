@@ -8,8 +8,8 @@
   "name":"oWood",
   "overriddenProperties":[],
   "parent":{
-    "name":"Items",
-    "path":"folders/Objects/Environment/Items.yy",
+    "name":"Material Items",
+    "path":"folders/Game/Game Objects/Items/Material Items.yy",
   },
   "parentObjectId":{
     "name":"oItemMaterialParent",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPotion",
-    "path":"sprites/sPotion/sPotion.yy",
+    "name":"sWood",
+    "path":"sprites/sWood/sWood.yy",
   },
   "spriteMaskId":null,
   "visible":true,

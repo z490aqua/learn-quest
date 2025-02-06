@@ -9,7 +9,7 @@ for (var i = 0; i < ds_list_size(materials); i++)
 	var _slot = ds_list_find_value(materials, i)
 	if(is_struct(_slot))	
 	{
-		var balls = global.materials[_slot.itemID].name + ": " +  string(_slot.count) + "  -  ";
+		var balls = global.items[_slot.itemID].name + ": " +  string(_slot.count) + "  -  ";
 		listString += balls
 	}
 }

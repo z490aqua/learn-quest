@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Battle Boxes",
-    "path":"folders/Objects/SequenceGUI/Boxes/Battle Boxes.yy",
+    "path":"folders/Game/SequenceGUI/Battle/Sequences/Battle Boxes.yy",
   },
   "parentObjectId":{
     "name":"oGUIBoxParent",
