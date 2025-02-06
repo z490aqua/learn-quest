@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oWood",
+  "%Name":"oIron",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oWood",
+  "name":"oIron",
   "overriddenProperties":[],
   "parent":{
     "name":"Material Items",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWood",
-    "path":"sprites/sWood/sWood.yy",
+    "name":"sIron",
+    "path":"sprites/sIron/sIron.yy",
   },
   "spriteMaskId":null,
   "visible":true,

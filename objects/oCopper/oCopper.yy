@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oWood",
+  "%Name":"oCopper",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oWood",
+  "name":"oCopper",
   "overriddenProperties":[],
   "parent":{
     "name":"Material Items",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sWood",
-    "path":"sprites/sWood/sWood.yy",
+    "name":"sCopper",
+    "path":"sprites/sCopper/sCopper.yy",
   },
   "spriteMaskId":null,
   "visible":true,

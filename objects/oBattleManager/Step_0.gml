@@ -48,7 +48,7 @@ if (choosing) {
 					instance_deactivate_object(oGUIBoxParent);
 					
 					// Create menu
-					itemMenuSeqElm = layer_sequence_create(global.seqLayer2, 0, 0, seqMaterialMenu);
+					itemMenuSeqElm = layer_sequence_create(global.seqLayer2, 0, 0, seqPause);
 					itemMenuOpen = true;
 				}
 				// Destroy pause sequence

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"stone_pickup2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.470204,
+  "name":"stone_pickup2",
+  "parent":{
+    "name":"Stone",
+    "path":"folders/Game/Game Objects/Items/Material Items/Material Item SFX/Pickup/Stone.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"stone_pickup2.mp3",
+  "type":0,
+  "volume":1.0,
+}
