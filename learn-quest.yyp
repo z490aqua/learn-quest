@@ -161,6 +161,7 @@
     {"id":{"name":"saveFunctions","path":"scripts/saveFunctions/saveFunctions.yy",},},
     {"id":{"name":"scrGameData","path":"scripts/scrGameData/scrGameData.yy",},},
     {"id":{"name":"scrResolution","path":"scripts/scrResolution/scrResolution.yy",},},
+    {"id":{"name":"soundFunctions","path":"scripts/soundFunctions/soundFunctions.yy",},},
     {"id":{"name":"sounds","path":"scripts/sounds/sounds.yy",},},
     {"id":{"name":"textFunctions","path":"scripts/textFunctions/textFunctions.yy",},},
     {"id":{"name":"seqActionHeal","path":"sequences/seqActionHeal/seqActionHeal.yy",},},

@@ -10,7 +10,7 @@ if (player != -1)
 			var _itemData = global.items[itemID];
 			show_alert("You got a " + _itemData.name + "!", _itemData.icon);
 			// Destroy item
-			audio_play_sound(global.sounds[pickupSounds[irandom_range(0, array_length(pickupSounds) - 1)]], 0, false)
+			PlayPickupSound()
 			
 			
 			instance_destroy();

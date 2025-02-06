@@ -2,14 +2,8 @@
 
 event_inherited();
 
-materialId = MATERIAL.SILVER;
+itemID = ITEM.SILVER;
 
-pickupSounds = 
-[
-	SOUNDS.STONEPICKUP1,
-	SOUNDS.STONEPICKUP2,
-	SOUNDS.STONEPICKUP3
-]
 
 /*
 TO ADD AN ITEM:

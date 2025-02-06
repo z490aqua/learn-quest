@@ -103,6 +103,7 @@
     {"name":"materialFunctions","order":9,"path":"scripts/materialFunctions/materialFunctions.yy",},
     {"name":"saveFunctions","order":7,"path":"scripts/saveFunctions/saveFunctions.yy",},
     {"name":"scrGameData","order":1,"path":"scripts/scrGameData/scrGameData.yy",},
+    {"name":"soundFunctions","order":10,"path":"scripts/soundFunctions/soundFunctions.yy",},
     {"name":"sounds","order":5,"path":"scripts/sounds/sounds.yy",},
     {"name":"textFunctions","order":5,"path":"scripts/textFunctions/textFunctions.yy",},
     {"name":"seqActionHeal","order":1,"path":"sequences/seqActionHeal/seqActionHeal.yy",},
