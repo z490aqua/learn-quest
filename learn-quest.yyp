@@ -153,7 +153,6 @@
     {"id":{"name":"inventoryFunctions","path":"scripts/inventoryFunctions/inventoryFunctions.yy",},},
     {"id":{"name":"ItemClasses","path":"scripts/ItemClasses/ItemClasses.yy",},},
     {"id":{"name":"itemData","path":"scripts/itemData/itemData.yy",},},
-    {"id":{"name":"itemMaterialData","path":"scripts/itemMaterialData/itemMaterialData.yy",},},
     {"id":{"name":"layerFunctions","path":"scripts/layerFunctions/layerFunctions.yy",},},
     {"id":{"name":"log","path":"scripts/log/log.yy",},},
     {"id":{"name":"materialFunctions","path":"scripts/materialFunctions/materialFunctions.yy",},},

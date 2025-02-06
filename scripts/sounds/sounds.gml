@@ -19,12 +19,13 @@ global.sounds[SOUNDS.STONEPICKUP1] = stone_pickup1
 global.sounds[SOUNDS.STONEPICKUP2] =  stone_pickup2
 global.sounds[SOUNDS.STONEPICKUP3] =  stone_pickup3
 
-
+#region Pickup Sounds
 global.pickupSounds[ITEM.COPPER] = [stone_pickup1, stone_pickup2, stone_pickup3]
 global.pickupSounds[ITEM.GOLD] = [stone_pickup1, stone_pickup2, stone_pickup3]
 global.pickupSounds[ITEM.IRON] = [stone_pickup1, stone_pickup2, stone_pickup3]
 global.pickupSounds[ITEM.SILVER] = [stone_pickup1, stone_pickup2, stone_pickup3]
 global.pickupSounds[ITEM.WOOD] = [wood_pickup1, wood_pickup2, wood_pickup3]
+#endregion
 
 //Template
 //global.sounds[] = 

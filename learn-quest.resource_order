@@ -97,7 +97,6 @@
     {"name":"inventoryFunctions","order":8,"path":"scripts/inventoryFunctions/inventoryFunctions.yy",},
     {"name":"ItemClasses","order":2,"path":"scripts/ItemClasses/ItemClasses.yy",},
     {"name":"itemData","order":3,"path":"scripts/itemData/itemData.yy",},
-    {"name":"itemMaterialData","order":4,"path":"scripts/itemMaterialData/itemMaterialData.yy",},
     {"name":"layerFunctions","order":4,"path":"scripts/layerFunctions/layerFunctions.yy",},
     {"name":"log","order":4,"path":"scripts/log/log.yy",},
     {"name":"materialFunctions","order":9,"path":"scripts/materialFunctions/materialFunctions.yy",},
