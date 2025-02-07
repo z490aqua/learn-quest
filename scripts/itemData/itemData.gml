@@ -14,7 +14,10 @@ enum ITEM {
 	GOLD,
 	IRON,
 	SILVER,
-	WOOD
+	WOOD,
+	
+	//Testing
+	TESTINGBAG
 	
 }
 
@@ -39,6 +42,9 @@ global.items[ITEM.GOLD] = new Material("Gold", sGold);
 global.items[ITEM.IRON] = new Material("Iron", sIron);
 global.items[ITEM.SILVER] = new Material("Silver", sSilver);
 global.items[ITEM.WOOD] = new Material("Wood", sWood);
+
+//Testing
+global.items[ITEM.TESTINGBAG] = new LootBag("Test", sHeal1, LOOTTABLE.ENEMY_MASKEDGOON);
 #endregion
 //show_message(instanceof(global.items[ITEM.WOOD]))
 
