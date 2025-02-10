@@ -16,6 +16,13 @@ enum ITEM {
 	SILVER,
 	WOOD,
 	
+	//Loot Bags
+	MATERIAL_CHEST_C,
+	MATERIAL_CHEST_U,
+	MATERIAL_CHEST_R,
+	MATERIAL_CHEST_E,
+	MATERIAL_CHEST_L,
+	
 	//Testing
 	TESTINGBAG,
 	
@@ -51,8 +58,15 @@ global.items[ITEM.IRON] = new Material("Iron", sIron);
 global.items[ITEM.SILVER] = new Material("Silver", sSilver);
 global.items[ITEM.WOOD] = new Material("Wood", sWood);
 
+//Loot Bags
+global.items[ITEM.MATERIAL_CHEST_C] = new LootBag("Common Materials Chest", sMaterialChest_C, LOOTTABLE.MATERIAL_CHEST_C)
+global.items[ITEM.MATERIAL_CHEST_U] = new LootBag("Uncommon Materials Chest", sMaterialChest_U, LOOTTABLE.MATERIAL_CHEST_U)
+global.items[ITEM.MATERIAL_CHEST_R] = new LootBag("Rare Materials Chest", sMaterialChest_R, LOOTTABLE.MATERIAL_CHEST_R)
+global.items[ITEM.MATERIAL_CHEST_E] = new LootBag("Epic Materials Chest", sMissing, LOOTTABLE.MATERIAL_CHEST_E)
+global.items[ITEM.MATERIAL_CHEST_L] = new LootBag("Legendary Materials Chest", sMaterialChest_L, LOOTTABLE.MATERIAL_CHEST_L)
+
 //Testing
-global.items[ITEM.TESTINGBAG] = new LootBag("Test", sHeal1, LOOTTABLE.ENEMY_MASKEDGOON);
+global.items[ITEM.TESTINGBAG] = new LootBag("Test", sMissing, LOOTTABLE.LOOT_BAG);
 #endregion
 //show_message(instanceof(global.items[ITEM.WOOD]))
 

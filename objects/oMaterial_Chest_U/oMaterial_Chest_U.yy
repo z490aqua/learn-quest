@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Test",
+  "%Name":"oMaterial_Chest_U",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Test",
+  "name":"oMaterial_Chest_U",
   "overriddenProperties":[],
   "parent":{
     "name":"LootBag Items",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMissing",
-    "path":"sprites/sMissing/sMissing.yy",
+    "name":"sMaterialChest_U",
+    "path":"sprites/sMaterialChest_U/sMaterialChest_U.yy",
   },
   "spriteMaskId":null,
   "visible":true,
