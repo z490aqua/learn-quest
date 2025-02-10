@@ -3,9 +3,4 @@ function Slot (_itemID) constructor {
 	count = 1;
 }
 
-function MaterialSlot (_materialId) constructor {
-	materialId = _materialId
-	count = 1;
-		
-}
 

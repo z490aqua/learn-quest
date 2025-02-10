@@ -67,12 +67,13 @@ function inventory_deplete_slot (_inventory, _slotID, _count) {
 	}
 }
 
-function inventory_add_material (_materials, _materialId) {
+function inventory_add_material (_materials, _materialId, _num = 1) {
 	// Find same slot
 	var _slot = inventory_find_slot_material(_materials, _materialId);
 	
 	if (is_struct(_slot)) {
-		_slot.count ++;
+		_slot.count += _num;
+		show_debug_message("Player got " + string(_num) + " " + string(global.items[_materialId].name))
 		return true;
 	}
 	

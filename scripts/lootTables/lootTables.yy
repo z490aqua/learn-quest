@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"lootTables",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"lootTables",
+  "parent":{
+    "name":"Data",
+    "path":"folders/Game/Scripts/Data.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
