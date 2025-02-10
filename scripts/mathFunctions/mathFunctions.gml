@@ -47,3 +47,7 @@ function level_up_stats (entity) {
 	// Return string
 	return "HP  +" + string(_hpIncrease) + "\nATTACK  +" + string(_attackIncrease) + "\nDEFENSE  +" + string(_defenseIncrease);
 }
+
+function random_boolean(_percent) {
+    return random(100) < (_percent * 100);
+}
