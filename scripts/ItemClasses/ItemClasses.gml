@@ -10,7 +10,7 @@ function Item (_name, _icon) constructor {
 }
 
 /// @desc holds multiple items like a slot but not for ui use
-function ItemHolder (_itemID, _numItems)
+function ItemHolder (_itemID, _numItems) constructor
 {
 	itemID = _itemID;
 	numItems = _numItems;

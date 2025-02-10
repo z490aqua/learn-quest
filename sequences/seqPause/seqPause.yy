@@ -63,7 +63,7 @@
             ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"scale","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4282970761,"tracks":[],"traits":0,},
         {"$GMInstanceTrack":"","%Name":"oPlayerMaterialsBox","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetInstanceKeyframe>":"","Keyframes":[
               {"$Keyframe<AssetInstanceKeyframe>":"","Channels":{
-                  "0":{"$AssetInstanceKeyframe":"","Id":{"name":"oPlayerMaterialsBox","path":"objects/oPlayerMaterialsBox/oPlayerMaterialsBox.yy",},"resourceType":"AssetInstanceKeyframe","resourceVersion":"2.0",},
+                  "0":{"$AssetInstanceKeyframe":"","Id":{"name":"oPlayerCraftingBox","path":"objects/oPlayerCraftingBox/oPlayerCraftingBox.yy",},"resourceType":"AssetInstanceKeyframe","resourceVersion":"2.0",},
                 },"Disabled":false,"id":"981b559e-0837-486a-b7cc-28ba4735a5a3","IsCreationKey":false,"Key":0.0,"Length":35.0,"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"2.0","Stretch":false,},
             ],"resourceType":"KeyframeStore<AssetInstanceKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"oPlayerMaterialsBox","resourceType":"GMInstanceTrack","resourceVersion":"2.0","trackColour":4282970761,"tracks":[
             {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[

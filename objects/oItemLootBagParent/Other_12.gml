@@ -4,7 +4,11 @@
 if (player != -1)
 {
 	// global.lootTable[LOOTTABLE.LOOT_BAG].GiveItems(player);
-	global.lootTable[LOOTTABLE.LOOT_BAG].GiveItems(player);
+	var table = global.lootTable[LOOTTABLE.LOOT_BAG]
+	
+	table.GiveItems(player);
 	
 	PlayPickupSound()
+	
+	instance_destroy();
 }

@@ -17,7 +17,15 @@ enum ITEM {
 	WOOD,
 	
 	//Testing
-	TESTINGBAG
+	TESTINGBAG,
+	
+	
+	
+	
+	
+	//Extra testing
+	
+	HEHE
 	
 }
 

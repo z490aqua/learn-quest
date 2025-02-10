@@ -8,20 +8,20 @@ enum LOOTTABLE
 	
 	
 }
-
+drop = global.items[ITEM.IRON]//Drop(ITEM.IRON, 0, 3)
 global.lootTable[LOOTTABLE.ENEMY_MASKEDGOON] = 
 
-LootTable([
-	Drop(ITEM.IRON, 0, 3),
-	Drop(ITEM.GOLD, 0, 1, 0.1),
-	Drop(ITEM.COPPER, 1, 2)
+new LootTable([
+	new Drop(ITEM.IRON, 0, 3, 1),
+	new Drop(ITEM.GOLD, 0, 1, 0.1),
+	new Drop(ITEM.COPPER, 0, 2, 0.5)
 ])
 
 
 global.lootTable[LOOTTABLE.LOOT_BAG] = 
 
-LootTable([
-	Drop(ITEM.IRON, 0, 3),
-	Drop(ITEM.GOLD, 0, 1, 0.1),
-	Drop(ITEM.COPPER, 1, 2)
+new LootTable([
+	new Drop(ITEM.IRON, 1, 3),
+	new Drop(ITEM.GOLD, 0, 1, 0.1),
+	new Drop(ITEM.COPPER, 1, 2)
 ])

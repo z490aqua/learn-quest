@@ -73,6 +73,7 @@ function inventory_add_material (_materials, _materialId, _num = 1) {
 	
 	if (is_struct(_slot)) {
 		_slot.count += _num;
+		show_debug_message("Player got " + string(_num) + " " + string(global.items[_materialId].name))
 		return true;
 	}
 	

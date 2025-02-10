@@ -49,5 +49,5 @@ function level_up_stats (entity) {
 }
 
 function random_boolean(_percent) {
-    return random(100) < (percent * 100);
+    return random(100) < (_percent * 100);
 }

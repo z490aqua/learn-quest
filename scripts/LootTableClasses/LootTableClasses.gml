@@ -16,15 +16,18 @@ function Drop(_itemID, _minDrop, _maxDrop, _percentDrop = 1) constructor
 	maxDrop = _maxDrop
 	percentDrop = _percentDrop
 	
-	function RunDrop()
+	
+	RunDrop = function()
 	{
 		if (random_boolean(percentDrop))
 		{
 			var numDropped = irandom_range(minDrop, maxDrop)
-			return ItemHolder(itemID, numDropped)
+			
+			return new ItemHolder(itemID, numDropped)
 		}
 		return -1; // if it decides not to drop
 	}
+	
 	
 }
 
@@ -32,13 +35,13 @@ function Drop(_itemID, _minDrop, _maxDrop, _percentDrop = 1) constructor
 /// @function LootTable
 /// @desc - Creates a loot table struct
 /// @param {Array[struct]} _drops - drops structs that makeup a single loot table
-function LootTable(_drops)
+function LootTable(_drops) constructor
 {
 	drops = _drops
 	
-	function GiveItems(_player)
+	GiveItems = function(_player)
 	{
-		
+		show_debug_message("Player " + string(_player.id) + " picked up a loot bag")
 		for (var i = 0; i < array_length(drops); i++)
 		{
 			var drop = drops[i].RunDrop()
