@@ -1,13 +1,11 @@
 {
-  "$GMScript":"v1",
-  "%Name":"Actions",
-  "isCompatibility":false,
-  "isDnD":false,
-  "name":"Actions",
-  "parent":{
-    "name":"Classes",
-    "path":"folders/Game/Scripts/Classes.yy",
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "Actions",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Classes",
+    "path": "folders/Scripts/Classes.yy",
   },
-  "resourceType":"GMScript",
-  "resourceVersion":"2.0",
 }

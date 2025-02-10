@@ -78,5 +78,3 @@ nextLevelXP = xp_for_next_level(level);
 baseLevelXP = 0;
 
 inventory = array_create(INVENTORY_MAX_SIZE, -1);
-
-materials = ds_list_create()

@@ -25,13 +25,7 @@ if (isHovered) {
 	
 	if (_slotNum < INVENTORY_MAX_SIZE) {
 		hoverSlotNum = _slotNum;
-		
-		if(_slotNum > 0){
-			var _slot = inventory[_slotNum];
-		}
-		else {
-			var _slot = inventory[1];
-		}
+		var _slot = inventory[_slotNum];
 		
 		// Click
 		if (isSelected && is_struct(_slot)) {

@@ -1,13 +1,11 @@
 {
-  "$GMScript":"v1",
-  "%Name":"scrResolution",
-  "isCompatibility":false,
-  "isDnD":false,
-  "name":"scrResolution",
-  "parent":{
-    "name":"Data",
-    "path":"folders/Game/Scripts/Data.yy",
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "scrResolution",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Data",
+    "path": "folders/Scripts/Data.yy",
   },
-  "resourceType":"GMScript",
-  "resourceVersion":"2.0",
 }

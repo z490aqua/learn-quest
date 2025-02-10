@@ -6,7 +6,6 @@ function Item (_name, _icon) constructor {
 	/// @func	Effect
 	/// @arg	player
 	Effect = function (player) {};
-	
 }
 
 function HealingItem (_name, _icon, _healPower) : Item (_name, _icon) constructor {
@@ -40,17 +39,4 @@ function DefenseIncrease (_name, _icon, _increase, _forBattle) : Item (_name, _i
 	Effect = function (player) {
 		return true;
 	}
-}
-
-function Material (_name, _icon) constructor {
-	name = _name;
-	icon = _icon;
-	forBattleUse = false;
-	
-	
-
-
-	/// @func	Effect
-	/// @arg	player
-	Effect = function (player) {};
 }

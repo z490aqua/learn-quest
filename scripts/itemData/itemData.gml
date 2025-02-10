@@ -8,17 +8,9 @@ enum ITEM {
 	BATTLE_DEFENSE,
 	
 	PERM_ATTACK,
-	PERM_DEFENSE,
-	//Materials
-	COPPER,
-	GOLD,
-	IRON,
-	SILVER,
-	WOOD
-	
+	PERM_DEFENSE
 }
 
-#region Items
 global.items[ITEM.BANDAGE] = new HealingItem("Bandage", sBandage, 20);
 global.items[ITEM.WEAK_POTION] = new HealingItem("Weak Potion", sPotion, 35);
 global.items[ITEM.POTION] = new HealingItem("Potion", sPotion, 50);
@@ -29,16 +21,3 @@ global.items[ITEM.BATTLE_DEFENSE] = new DefenseIncrease("Battle Defense+", sBatt
 
 global.items[ITEM.PERM_ATTACK] = new AttackIncrease("Perm Attack+", sPermAttack, 10, false);
 global.items[ITEM.PERM_DEFENSE] = new DefenseIncrease("Perm Defense+", sPermDefense, 10, false);
-
-
-
-
-//Materials
-global.items[ITEM.COPPER] = new Material("Copper", sCopper);
-global.items[ITEM.GOLD] = new Material("Gold", sGold);
-global.items[ITEM.IRON] = new Material("Iron", sIron);
-global.items[ITEM.SILVER] = new Material("Silver", sSilver);
-global.items[ITEM.WOOD] = new Material("Wood", sWood);
-#endregion
-//show_message(instanceof(global.items[ITEM.WOOD]))
-
