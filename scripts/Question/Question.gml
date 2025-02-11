@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function Question(_text, _correctAns, _numAns, _extra = false, _questionType) constructor{
+function Question(_text, _correctAns, _numAns, _extra, _questionType) constructor{
 	content = _text;
 	correctValue = _correctAns;
 	numToDraw = _numAns;

@@ -6,7 +6,7 @@ if(!global.paused)
 	draw_set_halign(fa_center);
 	draw_set_font(ftDialogueMessage);
 
-	var _gap = 40;
+	var _gap = 60;
 	var _size = 4;
 
 	for(var i = 0; i < _size; i++){

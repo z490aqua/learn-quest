@@ -1,5 +1,5 @@
 /// @description 
-messageData = -1;
+messageData = [];
 
 // Textbox properties
 charSpeed = 0.5;

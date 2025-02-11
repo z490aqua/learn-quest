@@ -6,6 +6,7 @@ draw_set_color(c_white);
 var _up = keyboard_check_pressed(vk_up);
 var _down = keyboard_check_pressed(vk_down);
 var _select = keyboard_check_pressed(vk_enter);
+var _esc = keyboard_check_pressed(vk_escape);
 
 var _move = _down - _up;
 
@@ -20,6 +21,10 @@ if(_move != 0)
 	else if(index >= _size)
 		index = 0;
 	
+}
+
+if(!global.paused) {
+	_select = false;
 }
 
 if(_select)
@@ -42,9 +47,22 @@ if(_select)
 		}
 		
 		index = 0;
+		
+		oPlayer.correct_this_session++;
+		oPlayer.correct_all_time++;
 	}
 	else {
 		show_message("Wrong! Try again!");
+		
+		oPlayer.incorrect_this_session++;
+		oPlayer.incorrect_all_time++;
 	}
+	
+}
+
+if(_esc) {
+	global.paused = false;
+	
+	array_delete(qArr, 0, 4);
 	
 }
