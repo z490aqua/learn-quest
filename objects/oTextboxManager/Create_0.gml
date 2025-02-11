@@ -18,7 +18,7 @@ endTimer = 0;
 
 // Sequence
 seqElm = -1;
-seqLayer = global.seqLayer;
+seqLayer = global.seqLayer3;
 
 // Create dialogue function
 endCallback = -1;
