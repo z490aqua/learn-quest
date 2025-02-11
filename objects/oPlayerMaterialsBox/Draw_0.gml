@@ -11,12 +11,14 @@ align_center();
 var _slotX = x;
 var _slotY = y + headerHeight;
 
-for (var i = 0; i < INVENTORY_MAX_SIZE; i ++) {
+for (var i = 0; i < ds_list_size(inventory); i++) {
 	var _slot = ds_list_find_value(inventory, i);
 		
-	if (_slot ?? undefined) {
-		_slot = ds_list_find_value(inventory, 0); 
-	} 
+	
+	 
+	
+	
+
 	
 	// Hovered
 	if (hoverSlotNum == i) {

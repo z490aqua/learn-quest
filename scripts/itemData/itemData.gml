@@ -15,6 +15,7 @@ enum ITEM {
 	IRON,
 	SILVER,
 	WOOD,
+	COPPERMILK,
 	
 	//Loot Bags
 	MATERIAL_CHEST_C,
@@ -49,6 +50,7 @@ global.items[ITEM.GOLD] = new Material("Gold", sGold);
 global.items[ITEM.IRON] = new Material("Iron", sIron);
 global.items[ITEM.SILVER] = new Material("Silver", sSilver);
 global.items[ITEM.WOOD] = new Material("Wood", sWood);
+global.items[ITEM.COPPERMILK] = new Material("Copper Milk", sCopperMilk);
 
 //Loot Bags
 global.items[ITEM.MATERIAL_CHEST_C] = new LootBag("Common Materials Chest", sMaterialChest_C, LOOTTABLE.MATERIAL_CHEST_C)
