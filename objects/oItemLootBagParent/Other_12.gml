@@ -4,7 +4,7 @@
 if (player != -1)
 {
 	// global.lootTable[LOOTTABLE.LOOT_BAG].GiveItems(player);
-	var table = global.lootTable[LOOTTABLE.LOOT_BAG]
+	var table = global.lootTable[global.items[itemID].lootTable]
 	
 	table.GiveItems(player);
 	

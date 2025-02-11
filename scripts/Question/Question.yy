@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Question",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Question",
+  "parent":{
+    "name":"Classes",
+    "path":"folders/Game/Scripts/Classes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

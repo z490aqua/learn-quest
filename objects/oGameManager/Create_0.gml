@@ -1,6 +1,7 @@
 /// @description 
 // Pause
 global.paused = false;
+
 pauseSeqElm = -1;
 
 // GUI Sequence
@@ -34,3 +35,5 @@ for (var _x = 0; _x < _width; _x ++) {
 
 // Managers
 global.textboxManager = instance_create_layer(x, y, layer, oTextboxManager);
+
+randomize()

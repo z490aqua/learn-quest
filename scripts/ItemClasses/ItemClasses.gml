@@ -6,6 +6,15 @@ function Item (_name, _icon) constructor {
 	/// @func	Effect
 	/// @arg	player
 	Effect = function (player) {};
+	
+}
+
+/// @desc holds multiple items like a slot but not for ui use
+function ItemHolder (_itemID, _numItems) constructor
+{
+	itemID = _itemID;
+	numItems = _numItems;
+	
 }
 
 function HealingItem (_name, _icon, _healPower) : Item (_name, _icon) constructor {
@@ -39,4 +48,31 @@ function DefenseIncrease (_name, _icon, _increase, _forBattle) : Item (_name, _i
 	Effect = function (player) {
 		return true;
 	}
+}
+
+function Material (_name, _icon) constructor {
+	name = _name;
+	icon = _icon;
+	forBattleUse = false;
+	
+	
+
+
+	/// @func	Effect
+	/// @arg	player
+	Effect = function (player) {};
+}
+
+function LootBag (_name, _icon, _lootTable) constructor {
+	name = _name;
+	icon = _icon;
+	lootTable = _lootTable
+	forBattleUse = false;
+	
+	
+
+
+	/// @func	Effect
+	/// @arg	player
+	Effect = function (player) {};
 }

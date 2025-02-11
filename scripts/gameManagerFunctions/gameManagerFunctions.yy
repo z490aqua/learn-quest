@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "gameManagerFunctions",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Functions",
-    "path": "folders/Scripts/Functions.yy",
+  "$GMScript":"v1",
+  "%Name":"gameManagerFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gameManagerFunctions",
+  "parent":{
+    "name":"Functions",
+    "path":"folders/Game/Scripts/Functions.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

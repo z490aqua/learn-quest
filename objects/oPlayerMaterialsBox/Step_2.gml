@@ -26,32 +26,28 @@ if (isHovered) {
 	if (_slotNum < INVENTORY_MAX_SIZE) {
 		hoverSlotNum = _slotNum;
 		
-		if(_slotNum > 0){
-			var _slot = inventory[_slotNum];
-		}
-		else {
-			var _slot = inventory[1];
-		}
+		var _slot = ds_list_find_value(inventory, _slotNum);
 		
-		// Click
+		if (_slot ?? undefined) {
+			_slot = ds_list_find_value(inventory, 0); 
+		} 
+		
+		/*
 		if (isSelected && is_struct(_slot)) {
-			// Get item data
+			
 			var _itemID = _slot.itemID;
 			var _itemData = global.items[_itemID];
 			
 			var _isCompatible = (self.forBattleUse || !_itemData.forBattleUse);
 			
-			// Call effect method
 			var _effectMethod = _itemData.Effect;
 			
 			if (_isCompatible && is_method(_effectMethod)) {
 				var _used = _effectMethod(oPlayer);
 			
-				// Use up item
 				if (_used) {
 					inventory_deplete_slot(inventory, _slotNum, 1);
 					
-					// If in battle, destroy
 					if (forBattleUse) {
 						oBattleManager.itemMenuOpen = false;
 						instance_destroy();
@@ -59,6 +55,7 @@ if (isHovered) {
 				}
 			}
 		}
+		*/
 	}
 }
 #endregion

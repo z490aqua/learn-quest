@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "ItemClasses",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Classes",
-    "path": "folders/Scripts/Classes.yy",
+  "$GMScript":"v1",
+  "%Name":"ItemClasses",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ItemClasses",
+  "parent":{
+    "name":"Classes",
+    "path":"folders/Game/Scripts/Classes.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -10,7 +10,7 @@ headerText = "MATERIALS";
 forBattleUse = instance_exists(oBattleManager);
 
 // Inventory data
-inventory = oPlayer.inventory;
+inventory = oPlayer.materials;
 
 inventoryWidth = sprite_width;
 inventoryHeight = sprite_height - headerHeight;
