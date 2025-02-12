@@ -1,6 +1,6 @@
 {
   "$GMSequence":"",
-  "%Name":"seqPause",
+  "%Name":"seqInventoryMenu",
   "autoRecord":true,
   "backdropHeight":720,
   "backdropImageOpacity":0.5,
@@ -24,7 +24,7 @@
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
   },
-  "name":"seqPause",
+  "name":"seqInventoryMenu",
   "parent":{
     "name":"Sequences",
     "path":"folders/Game/SequenceGUI/Sequences.yy",

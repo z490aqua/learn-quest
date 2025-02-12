@@ -13,4 +13,5 @@ global.inputSpace			= keyboard_check(vk_space);
 global.inputSpacePressed	= keyboard_check_pressed(vk_space);
 
 // Mouse implementation
-global.leftTapped			= mouse_check_button(mb_left)
+global.leftTapped			= mouse_check_button(mb_left);
+

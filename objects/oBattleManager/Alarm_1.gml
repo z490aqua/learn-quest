@@ -14,6 +14,7 @@ else {
 		var _text = level_up_stats(_player.instance);
 		oBattleMessageBox.text = _text;
 		
+		
 		alarm[0] = 180;
 	}
 	else {

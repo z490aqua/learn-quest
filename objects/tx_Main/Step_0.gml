@@ -11,7 +11,7 @@ var _move = _down - _up;
 
 if(_move != 0)
 {
-	 index += _move;
+		index += _move;
 	
 	// clamp
 	var _size = array_length(menu);
@@ -22,44 +22,45 @@ if(_move != 0)
 	
 }
 
+if(!global.paused) {
+	layer_sequence_destroy(pauseSeqElm);
+}
+
 if(_select)
 {
 	layer_sequence_destroy(pauseSeqElm);
 	
 	switch(index){
 		case 0: 
-			global.paused = !global.paused;
-			
-			if (global.paused) {
-				
-				pauseSeqElm = layer_sequence_create(global.seqLayer, 0, 0, seqPause);
+			if (global.paused == false) {
+				global.paused = true;
+				pauseSeqElm = layer_sequence_create(global.seqLayer, 0, 0, seqInventoryMenu);
 			}
 			
 			else {
+				global.paused = false;
 				layer_sequence_destroy(pauseSeqElm);
 			}
 			break;
 		case 1: 
-			global.paused = !global.paused;
-			
-			if (global.paused) {
-				
+			if (global.paused == false) {
+				global.paused = true;
 				pauseSeqElm = layer_sequence_create(global.seqLayer, 0, 0, seqMaterialMenu);
 			}
 			
 			else {
+				global.paused = false;
 				layer_sequence_destroy(pauseSeqElm);
 			}
 			break;
 		case 2: 
-			global.paused = !global.paused;
-			
-			if (global.paused) {
-				
+			if (global.paused == false) {
+				global.paused = true;
 				pauseSeqElm = layer_sequence_create(global.seqLayer, 0, 0, seqQBox);
 			}
 			
 			else {
+				global.paused = false;
 				layer_sequence_destroy(pauseSeqElm);
 			}
 			break;

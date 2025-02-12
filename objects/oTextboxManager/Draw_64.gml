@@ -15,12 +15,12 @@ if (textboxEnabled && layer_sequence_exists(seqLayer, seqElm) && instance_exists
 	draw_set_font(ftDialogueName);
 	
 	draw_set_halign(fa_center);
-	draw_text(oNameBox.x + oNameBox.sprite_width / 2, oNameBox.y, _name);
+	draw_text(300, 365, _name);
 	draw_set_halign(fa_left);
 	
 	// Draw image
 	if (sprite_exists(_image)) {
-		oImageBox.DrawImage(_image);
+		// oImageBox.DrawImage(_image);
 	}
 	
 	// Draw message
@@ -28,5 +28,5 @@ if (textboxEnabled && layer_sequence_exists(seqLayer, seqElm) && instance_exists
 	
 	draw_set_font(ftDialogueMessage);
 	
-	draw_text_ext(oMessageBox.x, oMessageBox.y, _str, -1, oMessageBox.sprite_width);
+	draw_text_ext(270, 460, _str, -1, 700);
 }

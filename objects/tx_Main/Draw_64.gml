@@ -3,6 +3,8 @@
 
 if(!global.paused)
 {
+	draw_sprite_ext(sStatsWindow, 1, 1, 1, 2.9, 3.9, 0, c_white, 0.5);
+	
 	draw_set_halign(fa_center);
 	draw_set_font(ftDialogueMessage);
 
@@ -10,7 +12,7 @@ if(!global.paused)
 	var _size = 4;
 
 	for(var i = 0; i < _size; i++){
-		draw_set_color(c_black);
+		draw_set_color(c_white);
 		if(i == index)
 			draw_set_color(#91CD46);
 		
