@@ -31,22 +31,10 @@ var file_path = "save.json";
 
 var file = file_text_open_read(file_path);
 
-if(file != undefined) {
+if(file != undefined and file_text_read_string(file) != "") {
 	var loaded_json = file_text_read_string(file);
 	
 	file_text_close(file);
-	
-	var sections = string_split(loaded_json, "}");
-	var first_section = sections[0] + "}";
-	var second_section = sections[1];
-
-	dataMap = json_decode(first_section);
-
-	materialsMap = ds_map_create();
-
-	var material_data = json_decode(second_section);
-	
-	// show_message(loaded_json);
 	
 	loaded_data = json_decode(loaded_json); 
 	
@@ -73,6 +61,12 @@ if(file != undefined) {
 	
 	x = ds_map_find_value(loaded_data, "x");
 	y = ds_map_find_value(loaded_data, "y");
+	
+	hp = ds_map_find_value(loaded_data, "hp");
+	maxHP = ds_map_find_value(loaded_data, "maxhp");
+	attack = ds_map_find_value(loaded_data, "atk");
+	defense = ds_map_find_value(loaded_data, "def");
+	level = ds_map_find_value(loaded_data, "level");
 	
 	// show_message("Save loaded!");
 }

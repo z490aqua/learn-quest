@@ -7,7 +7,7 @@ if (global.paused) {
 }
 
 var _move_spd = 1;
-var _found_player = mp_grid_path(global.AI_MPGrid, path, x, y, mouse_x, mouse_y, true);
+var _found_player = mp_grid_path(global.AI_MPGrid, path, x, y, device_mouse_x(0), device_mouse_y(0), true);
 	
 if _found_player 
 {

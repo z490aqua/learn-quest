@@ -22,17 +22,24 @@ for(var i = 0; i < ds_list_size(materials); i++) {
     ds_map_add(_save_data, ("MATcount" + string(i)), material.count);
 }
 
-// BROKEN UNTIL FURTHER NOTICE
+var _playerEntity = get_entity_data(self);
 
+ds_map_add(_save_data, "hp", _playerEntity.hp);
+ds_map_add(_save_data, "maxhp", _playerEntity.maxHP);
+ds_map_add(_save_data, "atk", _playerEntity.attack);
+ds_map_add(_save_data, "def", _playerEntity.defense);
+ds_map_add(_save_data, "lvl", _playerEntity.level);
+
+/*
 ds_map_add(_save_data, "total_inventory_items", array_length_1d(inventory));
 
 for(var i = 0; i < array_length_1d(inventory); i++) {
     var item = inventory[i];
 	
-	ds_map_add(_save_data, ("INVid" + string(i)), item);
+	ds_map_add(_save_data, ("INV" + string(i)), item);
     // ds_map_add(_save_data, ("INVcount" + string(i)), item.count);
 }
-
+*/
 
 var save_json = json_encode(_save_data, false);
 
