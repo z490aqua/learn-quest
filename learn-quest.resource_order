@@ -168,6 +168,7 @@
     {"name":"sJessica_Up_Idle","order":3,"path":"sprites/sJessica_Up_Idle/sJessica_Up_Idle.yy",},
     {"name":"sJessica_Up_Walk","order":3,"path":"sprites/sJessica_Up_Walk/sJessica_Up_Walk.yy",},
     {"name":"sKick","order":2,"path":"sprites/sKick/sKick.yy",},
+    {"name":"sMask","order":18,"path":"sprites/sMask/sMask.yy",},
     {"name":"sMaskedGoon_Down_Idle","order":3,"path":"sprites/sMaskedGoon_Down_Idle/sMaskedGoon_Down_Idle.yy",},
     {"name":"sMaskedGoon_Left_Walk","order":1,"path":"sprites/sMaskedGoon_Left_Walk/sMaskedGoon_Left_Walk.yy",},
     {"name":"sMaskedGoon_Right_Idle","order":1,"path":"sprites/sMaskedGoon_Right_Idle/sMaskedGoon_Right_Idle.yy",},

@@ -3,7 +3,11 @@
 enum RECIPE 
 {
 	COPPERMILK,
-	BANDAGE
+	BANDAGE,
+	WEAK_POTION,
+	POTION,
+	NOT_POTION
+	
 	
 }
 
@@ -21,4 +25,26 @@ global.recipes[RECIPE.BANDAGE] = new Recipe
 	], 
 	ITEM.BANDAGE
 	)
+	
+global.recipes[RECIPE.POTION] = new Recipe
+	([
+		new ItemHolder(ITEM.WOOD, 5)
+	], 
+	ITEM.POTION
+	)
+	
+global.recipes[RECIPE.WEAK_POTION] = new Recipe
+	([
+		new ItemHolder(ITEM.WOOD, 5)
+	], 
+	ITEM.WEAK_POTION
+	)
+	
+global.recipes[RECIPE.NOT_POTION] = new Recipe
+	([
+		new ItemHolder(ITEM.WOOD, 5)
+	], 
+	ITEM.NOT_POTION
+	)
+	
 

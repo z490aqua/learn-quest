@@ -246,6 +246,7 @@
     {"id":{"name":"sJessica_Up_Walk","path":"sprites/sJessica_Up_Walk/sJessica_Up_Walk.yy",},},
     {"id":{"name":"sKick","path":"sprites/sKick/sKick.yy",},},
     {"id":{"name":"sMarket","path":"sprites/sMarket/sMarket.yy",},},
+    {"id":{"name":"sMask","path":"sprites/sMask/sMask.yy",},},
     {"id":{"name":"sMaskedGoon_Down_Idle","path":"sprites/sMaskedGoon_Down_Idle/sMaskedGoon_Down_Idle.yy",},},
     {"id":{"name":"sMaskedGoon_Down_Walk","path":"sprites/sMaskedGoon_Down_Walk/sMaskedGoon_Down_Walk.yy",},},
     {"id":{"name":"sMaskedGoon_Left_Idle","path":"sprites/sMaskedGoon_Left_Idle/sMaskedGoon_Left_Idle.yy",},},

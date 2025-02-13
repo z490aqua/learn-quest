@@ -3,6 +3,8 @@
 
 // Inherit the parent event
 event_inherited();
+
+
 /*
 for (var i = 0; i < array_length(global.recipes); i++)
 {
@@ -30,9 +32,10 @@ for (var i = 0; i < array_length(global.recipes); i ++) {
 	// Hovered
 	if (hoverSlotNum == i) {
 		draw_set_alpha(0.3);
-		draw_rectangle(_slotX, _slotY, _slotX + cellSize, _slotY + cellSize, 1);
+		draw_rectangle(_slotX, _slotY, cellSizeX, cellSizeY, 1);
 		draw_set_alpha(1);
 	}
+	draw_rectangle(_slotX, _slotY, _slotX + cellSizeX, _slotY + cellSizeY, 0); // _slotX + cellSizeX because it is asking for second x cordinate not width
 	
 	// Must be a struct
 	if (is_struct(_slot)) {
@@ -46,35 +49,37 @@ for (var i = 0; i < array_length(global.recipes); i ++) {
 		//if (!_isCompatible) _drawAlpha = 0.3;
 		
 		// Sprite
-		var _centerX = _slotX + cellSize * 0.5;
-		var _centerY = _slotY + cellSize * 0.5;
-		draw_sprite_ext(sRecipeWindow, 0, _centerX, _centerY, itemScale, itemScale, 0, -1, _drawAlpha);
-		draw_sprite_ext(_itemData.icon, 0, _centerX, _centerY, itemScale, itemScale, 0, -1, _drawAlpha);
+		var _centerX = _slotX + cellSizeX * 0.5;
+		var _centerY = _slotY + cellSizeY * 0.5;
+		draw_sprite_stretched(sRecipeWindow, 0, _slotX, _slotY, cellSizeX, cellSizeY);
+		draw_sprite_ext(_itemData.icon, 0, _slotX + (itemScale * 16) / 2, _centerY, itemScale, itemScale, 0, -1, _drawAlpha);
 		
 		// Draw properties
 		align_center();
 		draw_set_alpha(_drawAlpha);
 		
 		// Name
-		draw_text_ext(_centerX, _centerY + (cellSize * 0.2), _itemData.name, 16, cellSize);
+		draw_text_ext(_centerX, _slotY + cellSizeY * 0.3, _itemData.name, 16, cellSize);
 		
 		// Count
+		/*
 		var _countX = _centerX - 30;
 		var _countY = _centerY - 32;
 		draw_circle_color(_countX, _countY, 12, c_gray, c_gray, 0);
 		draw_text(_countX, _countY, string(_slot.count));
+		*/
 		
 		// Reset alpha
 		draw_set_alpha(1);
 	}
 	
 	// Next slot position
-	_slotX += cellSize;
+	_slotX += cellSizeX;
 	
 	// End of row
 	if (_slotX >= x + inventoryWidth) {
 		_slotX = x;
-		_slotY += cellSize;
+		_slotY += cellSizeY;
 	}
 }
 
