@@ -1,6 +1,7 @@
 /// @description 
 // Pause
 global.paused = false;
+global.qRemain = -1;
 
 pauseSeqElm = -1;
 

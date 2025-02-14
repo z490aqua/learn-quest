@@ -15,7 +15,7 @@ if (instance_exists(oPlayer)) {
 	_strRight += string(oPlayer.correct_all_time) + "\n";
 	_strRight += string(oPlayer.incorrect_this_session) + "\n";
 	_strRight += string(oPlayer.incorrect_all_time) + "\n";
-	_strRight += string(oPlayer.correct_all_time/oPlayer.incorrect_all_time) + "\n";
+	_strRight += string((oPlayer.correct_all_time/(oPlayer.correct_all_time + oPlayer.incorrect_all_time))*100) + "\n";
 }
 
 var _x = x;

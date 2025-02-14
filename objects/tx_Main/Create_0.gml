@@ -3,7 +3,7 @@
 menu[0] = "Inventory";
 menu[1] = "Crafting";
 menu[2] = "Stats";
-menu[3] = "Exit";
+menu[3] = "Practice";
 
 index = 0;
 pauseSeqElm = -1;

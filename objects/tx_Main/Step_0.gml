@@ -56,7 +56,7 @@ if(_select)
 		case 2: 
 			if (global.paused == false) {
 				global.paused = true;
-				pauseSeqElm = layer_sequence_create(global.seqLayer, 0, 0, seqQBox);
+				pauseSeqElm = layer_sequence_create(global.seqLayer, 0, 0, seqStats);
 			}
 			
 			else {
@@ -66,6 +66,15 @@ if(_select)
 			break;
 		
 		default: 
-			game_end();
+			if (global.paused == false) {
+				global.paused = true;
+				pauseSeqElm = layer_sequence_create(global.seqLayer, 0, 0, seqQBox);
+			}
+			
+			else {
+				global.paused = false;
+				layer_sequence_destroy(pauseSeqElm);
+			}
+			break;
 	}
 }

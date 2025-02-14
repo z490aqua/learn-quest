@@ -28,6 +28,11 @@ ds_map_add(_save_data, "hp", _playerEntity.hp);
 ds_map_add(_save_data, "maxhp", _playerEntity.maxHP);
 ds_map_add(_save_data, "atk", _playerEntity.attack);
 ds_map_add(_save_data, "def", _playerEntity.defense);
+
+if(level == undefined) {
+	level = 1;
+}
+
 ds_map_add(_save_data, "lvl", _playerEntity.level);
 
 /*
@@ -51,6 +56,8 @@ if (file != undefined) {
     file_text_write_string(file, save_json);
 
     file_text_close(file);
+	
+	show_debug_message("Saved!")
 } else {
     show_message("Error: Unable to open file for saving. Please restart the application.");
 }

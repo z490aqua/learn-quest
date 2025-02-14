@@ -1,0 +1,1 @@
+global.qSeqElm = layer_sequence_create(global.seqLayer2, 0, 0, seqQBox);

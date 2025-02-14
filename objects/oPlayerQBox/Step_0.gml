@@ -30,32 +30,14 @@ if(!global.paused) {
 if(_select)
 {
 	if(qArr[index] == string(global.q.correctValue)) {
-		show_message("Correct!");
-		next_question();
+		qC = layer_sequence_create(global.seqLayer3, window_get_width()/2, window_get_height()/2, seqCorrect);
 		
-		qArr[0] = "1";
-		qArr[1] = "2";
-		qArr[2] = "3";
-		qArr[3] = "4";
-		
-		array_delete(qArr, 0, 4);
-		
-		global.ansArr = make_plausible_answers(global.q.correctValue, global.q.numToDraw);
-
-		for(var i = 0; i < global.q.numToDraw; i++) {
-			qArr[i] = string(global.ansArr[i]);
-		}
-		
-		index = 0;
-		
-		oPlayer.correct_this_session++;
-		oPlayer.correct_all_time++;
+		alarm[0] = 180;
 	}
 	else {
-		show_message("Wrong! Try again!");
+		qI = layer_sequence_create(global.seqLayer3, window_get_width()/2, window_get_height()/2, seqIncorrect);
 		
-		oPlayer.incorrect_this_session++;
-		oPlayer.incorrect_all_time++;
+		alarm[1] = 180;
 	}
 	
 }

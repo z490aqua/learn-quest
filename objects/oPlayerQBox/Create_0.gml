@@ -20,3 +20,8 @@ global.ansArr = make_plausible_answers(global.q.correctValue, global.q.numToDraw
 for(var i = 0; i < global.q.numToDraw; i++) {
 	qArr[i] = string(global.ansArr[i]);
 }
+
+if(global.qRemain == -1) {
+	global.qRemain = 9999;	
+}
+

@@ -1,19 +1,25 @@
-var file_path = "save.json";
+try {
+	var file_path = "save.json";
 
-var file = file_text_open_read(file_path);
+	var file = file_text_open_read(file_path);
 
-if(file != undefined) {
-	var loaded_json = file_text_read_string(file);
+	if(file != undefined) {
 	
-	file_text_close(file);
+		var loaded_json = file_text_read_string(file);
 	
-	loaded_data = json_decode(loaded_json); 
+		file_text_close(file);
 	
-	global.name = ds_map_find_value(loaded_data, "name");
+		loaded_data = json_decode(loaded_json); 
+	
+		global.name = ds_map_find_value(loaded_data, "name");
 
-	// show_message("Name updated!");
+		// show_message("Name updated!");
+	}
 }
-
+catch(_e) {
+	global.name = "player";
+	show_debug_message(_e);
+}
 global.messages = {};
 
 speakers = {

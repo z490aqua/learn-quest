@@ -21,3 +21,5 @@ else {
 		alarm[0] = 50;
 	}
 }
+
+global.qRemain = -1;

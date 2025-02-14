@@ -29,7 +29,15 @@ if (choosing) {
 		// Set text
 		if (instance_exists(oBattleMessageBox)) {
 			if (_battlePlayer.isAI) oBattleMessageBox.text = "Waiting for enemy";
-			else oBattleMessageBox.text = "Select an attack";
+			else {
+				oBattleMessageBox.text = "Select an attack";
+				
+				if(_f) {
+					_f = false;
+					global.qRemain = 1;
+					global.qSeqElm = layer_sequence_create(global.seqLayer2, 0, 0, seqQBox);
+				}
+			}
 		}
 		
 		// Get action
@@ -127,6 +135,8 @@ else {
 		choosing = true;
 		selectedAction = -1;
 		selectedOpponent = -1;
+		
+		_f = true;
 		
 		// Check if over
 		CheckOver();

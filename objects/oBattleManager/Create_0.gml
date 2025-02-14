@@ -31,6 +31,8 @@ itemMenuSeqElm = -1;
 xpFinal = 0;
 levelUp = false;
 
+_f = true;
+
 // Box IDs
 global.enemyBoxID = 1;
 global.actionBoxID = 0;
