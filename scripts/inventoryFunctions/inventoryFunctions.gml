@@ -1,3 +1,28 @@
+function inventory_add_uni(_player, _itemID, _count = 1)
+{
+	var switchval = instanceof(global.items[_itemID])
+	switch (switchval)
+	{
+		case "Material":
+			inventory_add_material(_player.materials, _itemID, _count)
+		break;
+		
+		
+		case "Item":
+			inventory_add(_player.inventory, _itemID)
+		break;
+		
+		case "HealingItem":
+			inventory_add(_player.inventory, _itemID)
+		break;
+		
+	}
+
+		
+	
+}
+
+
 /// @func	inventory_add
 /// @arg	inventory
 /// @arg	itemID
@@ -123,15 +148,15 @@ function inventory_find_slot_material (_materials, _materialId) {
 	return -1;
 }
 	
-function inventory_deplete_slot_material (_inventory, _slotID, _count) {
-	var _slot = _inventory[_slotID];
+function inventory_deplete_slot_material (_materials, _slotID, _count) {
+	var _slot = ds_list_find_value(_materials, _slotID)
 	
 	// Remove count
 	_slot.count -= _count;
 	
 	// Delete slot
 	if (_slot.count <= 0) {
-		_inventory[@ _slotID] = -1;
+		ds_list_delete(_materials, _slotID)
 	}
 }
 

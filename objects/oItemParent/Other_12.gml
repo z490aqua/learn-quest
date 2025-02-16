@@ -8,7 +8,7 @@ if (player != -1)
 		if (_added) {
 			// Show dialogue box
 			var _itemData = global.items[itemID];
-			show_alert("You got a " + _itemData.name + "!", _itemData.icon);
+			//show_alert("You got a " + _itemData.name + "!", _itemData.icon);
 			// Destroy item
 			PlayPickupSound()
 			

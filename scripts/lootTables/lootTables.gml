@@ -13,7 +13,8 @@ enum LOOTTABLE
 	
 	
 }
-drop = global.items[ITEM.IRON]//Drop(ITEM.IRON, 0, 3)
+
+
 global.lootTable[LOOTTABLE.ENEMY_MASKEDGOON] = 
 
 new LootTable([

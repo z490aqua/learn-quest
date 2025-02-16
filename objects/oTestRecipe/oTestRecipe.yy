@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayerCraftingBox",
+  "%Name":"oTestRecipe",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oPlayerCraftingBox",
+  "name":"oTestRecipe",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player Info Boxes",
-    "path":"folders/Game/SequenceGUI/Boxes/Player Info Boxes.yy",
+    "name":"Material Items",
+    "path":"folders/Game/Game Objects/Items/Material Items.yy",
   },
   "parentObjectId":{
-    "name":"oInfoBoxParent",
-    "path":"objects/oInfoBoxParent/oInfoBoxParent.yy",
+    "name":"oItemMaterialParent",
+    "path":"objects/oItemMaterialParent/oItemMaterialParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTextboxLayout",
-    "path":"sprites/sTextboxLayout/sTextboxLayout.yy",
+    "name":"sCopperMilk",
+    "path":"sprites/sCopperMilk/sCopperMilk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
