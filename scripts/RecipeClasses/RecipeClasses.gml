@@ -1,10 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-/// @param {array[struct]}  _itemHolders 
+/// @param {array[struct]} _items - ItemHolders
 /// @param {real} _output - itemID
-function Recipe(_itemHolders, _output) constructor
+function Recipe(_items, _output) constructor
 {
-		items = _itemHolders
+		items = _items
 		
 		output = _output
 		
@@ -47,13 +47,24 @@ function CanCraft(_player, _recipe){
 			//iterates through materials
 			if (ds_list_find_value(_player.materials, k).itemID == _recipe.items[i].itemID)
 			{
-				ds_map_add(map, _recipe.items[i].itemID, k)
+				// if there is the material in the material inventory
+				var recipeNumItems = _recipe.items[i].numItems
+				var playerNumItems = ds_list_find_value(_player.materials, k).count
+				if ( recipeNumItems <= playerNumItems)
+				{
+					// if the player has enough of the material
+					ds_map_add(map, _recipe.items[i].itemID, k)
+				}
+				
 			}
 						
 		}
 	}
 	
+	
 	if (ds_map_size(map) == 0)
+		return -1;
+	if (ds_map_size(map) < array_length(_recipe.items))
 		return -1;
 	else
 		return map;

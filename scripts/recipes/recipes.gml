@@ -7,7 +7,8 @@ enum RECIPE
 	WEAK_POTION,
 	POTION,
 	NOT_POTION,
-	GOLD
+	GOLD,
+	COPPERMILK2
 	
 	
 }
@@ -54,6 +55,18 @@ global.recipes[RECIPE.GOLD] = new Recipe
 		new ItemHolder(ITEM.COPPER, 1)
 	], 
 	ITEM.GOLD
+	)
+	
+global.recipes[RECIPE.COPPERMILK2] = new Recipe
+	([
+		new ItemHolder(ITEM.SILVER, 1),
+		new ItemHolder(ITEM.COPPER, 1),
+		new ItemHolder(ITEM.GOLD, 1),
+		new ItemHolder(ITEM.IRON, 1),
+		new ItemHolder(ITEM.WOOD, 1),
+		new ItemHolder(ITEM.COPPERMILK, 1)
+	], 
+	ITEM.COPPERMILK
 	)
 	
 

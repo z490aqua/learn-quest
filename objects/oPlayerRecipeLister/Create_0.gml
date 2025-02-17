@@ -7,11 +7,12 @@ event_inherited();
 headerText = "";
 numPerPage = 5;
 recipeListings = ds_list_create()
-pageNum = 0;
+pageNum = 1;
 hoverSlotNum = -1
 
 recipeBoxWidth = 410
 recipeBoxHeight = 130
+canSelect = true
 
 event_user(0)
 /*

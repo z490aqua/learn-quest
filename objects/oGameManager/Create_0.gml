@@ -3,6 +3,7 @@
 global.paused = false;
 
 pauseSeqElm = -1;
+global.localPlayerID = -1;
 
 // GUI Sequence
 global.seqLayer = layer_get_id("LayerSequence");

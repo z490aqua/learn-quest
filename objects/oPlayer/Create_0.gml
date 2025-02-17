@@ -2,7 +2,7 @@
 
 // Inherit the parent event
 event_inherited();
-
+global.localPlayer = self
 // Add path
 path = path_add();
 
