@@ -69,7 +69,7 @@ if (nextPageTop == pageNum)
 }
 else
 {
-	draw_text(x - (buttonWidth + buttonMargin - 1), y, "to pg. \n" + string((nextPageTop + 1))) // Top Button
+	draw_text(x - (buttonWidth + buttonMargin - 1), y, "to pg. \n " + string((nextPageTop + 1))) // Top Button
 }
 
 if (nextPageBottom == pageNum)
@@ -79,7 +79,7 @@ if (nextPageBottom == pageNum)
 }
 else
 {
-	draw_text(x - (buttonWidth + buttonMargin - 1), y + (numPerPage * recipeBoxHeight) - buttonHeight, "to pg. \n" + string((nextPageBottom + 1))) // Bottom Button
+	draw_text(x - (buttonWidth + buttonMargin - 1), y + (numPerPage * recipeBoxHeight) - buttonHeight, "to pg. \n " + string((nextPageBottom + 1))) // Bottom Button
 }
 
 
