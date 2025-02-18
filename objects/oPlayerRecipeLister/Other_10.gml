@@ -7,4 +7,6 @@ for (var i = pageNum * numPerPage; i < array_length(global.recipes) and i < (pag
 {
 	ds_list_add(recipeListings, global.recipes[i])
 }
+
+numRecipesLoaded = ds_list_size(recipeListings)
 //show_message("Populted")

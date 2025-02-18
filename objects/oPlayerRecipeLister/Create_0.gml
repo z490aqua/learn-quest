@@ -7,12 +7,16 @@ event_inherited();
 headerText = "";
 numPerPage = 5;
 recipeListings = ds_list_create()
-pageNum = 1;
+numRecipesLoaded = 0;
+pageNum = 0;
 hoverSlotNum = -1
 
 recipeBoxWidth = 410
 recipeBoxHeight = 130
 canSelect = true
+buttonWidth = 64
+buttonHeight = 64
+buttonMargin = 16
 
 event_user(0)
 /*

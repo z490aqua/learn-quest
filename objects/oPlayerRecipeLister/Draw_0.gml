@@ -26,9 +26,9 @@ for (var i = 0; i < ds_list_size(recipeListings); i++)
 
 
 
-var buttonWidth = 64
-var buttonHeight = 64
-var buttonMargin = 16
+
 draw_rectangle(x - (buttonWidth + buttonMargin), y, x - buttonMargin, y + buttonHeight, false)
+draw_rectangle(x - (buttonWidth + buttonMargin), y + (numRecipesLoaded * recipeBoxHeight) - buttonHeight, x - buttonMargin, y + (numRecipesLoaded * recipeBoxHeight), false)
+draw_text(x, y - 40, "Recipes        Pg. " + string(pageNum + 1))
 
 
