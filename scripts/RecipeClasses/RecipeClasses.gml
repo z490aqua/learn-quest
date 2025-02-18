@@ -1,5 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
 /// @param {array[struct]} _items - ItemHolders
 /// @param {real} _output - itemID
 function Recipe(_items, _output) constructor
@@ -7,7 +8,7 @@ function Recipe(_items, _output) constructor
 		items = _items
 		
 		output = _output
-		
+/// @desc returns recipe object if unsuccesful and -1 if succesful
 		Craft = function(_player)
 		{		
 			var indexes = CanCraft(_player, self)
@@ -19,15 +20,13 @@ function Recipe(_items, _output) constructor
 				{
 					var materialIndex = ds_map_find_value(indexes, items[i].itemID)
 					inventory_deplete_slot_material(_player.materials, materialIndex, items[i].numItems)
-					
-					
 				}
-				
 				inventory_add_uni(_player, output)
+				return -1
 			}
 			else
 			{
-				show_message("Unable to craft item")	
+				return self
 			}
 			
 		}
