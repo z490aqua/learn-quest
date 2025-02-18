@@ -30,12 +30,16 @@ if(!global.paused) {
 if(_select)
 {
 	if(qArr[index] == string(global.q.correctValue)) {
-		qC = layer_sequence_create(global.seqLayer3, window_get_width()/2, window_get_height()/2, seqCorrect);
+		qC = layer_sequence_create(global.seqLayer3, 550, 400, seqCorrect);
+		layer_sequence_xscale(qC, 1.2);
+		layer_sequence_yscale(qC, 1.2);
 		
 		alarm[0] = 180;
 	}
 	else {
-		qI = layer_sequence_create(global.seqLayer3, window_get_width()/2, window_get_height()/2, seqIncorrect);
+		qI = layer_sequence_create(global.seqLayer3, 550, 400, seqIncorrect);
+		layer_sequence_xscale(qI, 1.2);
+		layer_sequence_yscale(qI, 1.2);
 		
 		alarm[1] = 180;
 	}
