@@ -134,7 +134,6 @@
     {"id":{"name":"oPermAttack","path":"objects/oPermAttack/oPermAttack.yy",},},
     {"id":{"name":"oPermDefense","path":"objects/oPermDefense/oPermDefense.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"id":{"name":"oPlayerCraftingBox","path":"objects/oPlayerCraftingBox/oPlayerCraftingBox.yy",},},
     {"id":{"name":"oPlayerInventoryBox","path":"objects/oPlayerInventoryBox/oPlayerInventoryBox.yy",},},
     {"id":{"name":"oPlayerMaterialsBox","path":"objects/oPlayerMaterialsBox/oPlayerMaterialsBox.yy",},},
     {"id":{"name":"oPlayerQBox","path":"objects/oPlayerQBox/oPlayerQBox.yy",},},
