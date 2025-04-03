@@ -52,8 +52,13 @@ for (var i = 0; i < ds_list_size(recipeListings); i++)
 // Recipe header and page number
 draw_text(x, y - 40, "Recipes        Pg. " + string(pageNum + 1) + " of " + string(totalPages + 1))
 
+draw_sprite_ext(sUpArrow, 0, x - (buttonWidth + buttonMargin), y, 4, 4, 0, c_white, 1)
+
+draw_sprite_ext(sDownArrow, 0, x - (buttonWidth + buttonMargin), y + (numPerPage * recipeBoxHeight) - buttonHeight, 4, 4, 0, c_white, 1)
+
 
 //Page scroll buttons
+/*
 draw_rectangle(x - (buttonWidth + buttonMargin), y, x - buttonMargin, y + buttonHeight, false) // Top Button
 draw_rectangle(x - (buttonWidth + buttonMargin), y + (numPerPage * recipeBoxHeight) - buttonHeight, x - buttonMargin, y + (numPerPage * recipeBoxHeight), false) // Bottom Button
 
@@ -81,8 +86,7 @@ else
 {
 	draw_text(x - (buttonWidth + buttonMargin - 1), y + (numPerPage * recipeBoxHeight) - buttonHeight, "to pg. \n " + string((nextPageBottom + 1))) // Bottom Button
 }
-
-
+*/
 
 
 

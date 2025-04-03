@@ -55,6 +55,8 @@ if (instance_exists(_itemInst)) {
 
 }
 
+
+
 // TODO Make item pickup code polymorphic
 
 /*
